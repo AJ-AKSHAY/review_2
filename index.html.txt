@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Zomato Home Page</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            color: white;
+        }
+        
+        .logo img {
+            width: 1400px;
+            height: auto;
+            margin-right: 10px;
+            
+        }
+    </style>
+</head>
+<body><body>
+    
+
+    <div class="logo">
+
+        
+    </div>
+    </body>
+
+    <div class="main-class">
+    <nav>
+
+        <h2 class="logo"><span>ZO</span>MA<span>TO</span></h2>
+    <ul >
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+</nav>
+</div>
+    <div id="content">
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Search for restaurants">
+            <button id="search-button">Search</button>
+            <hr>
+        </div>
+        <div class="services-class">
+        <section id="Services">
+            <h1>Biriyani</h1>
+            <h2>Chicken Biriyani</h2>
+            <img src="https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg" width="500">
+        <p><b>Just At @199/-</b></p><lable><button>order now</button></lable>
+        </section>
+        <section id="Services">
+            <h2>shawarma</h2>
+            <img src="https://veenaazmanov.com/wp-content/uploads/2016/09/Easy-Shawarma-Chicken-Recipe22-500x500.png" width="500">
+                    <p><b>Just At @249/-</b></p><lable><button>order now</button></lable>
+        </section>
+        <section id="Services">
+            <h2>oyester</h2>
+            <img src="https://www.carolinescooking.com/wp-content/uploads/2021/02/oysters-Kilpatrick-featured-pic-sq-500x500.jpg" width="500">
+        <p><b>Just At @299/-</b></p><lable><button>order now</button></lable>
+        </section>
+        <section id="Services">
+            <h1>Meals</h1>
+            <h2>Aryas</h2>
+            <img src="data:image/jpeg;base64,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" width="500">
+        <p><b>Just At @199/-</b></p><lable><button>order now</button></lable>
+        </section>
+        <section id="Services">
+            <h2>Annapoorna</h2>
+            <img src="https://www.sharmispassions.com/wp-content/uploads/2017/04/SouthIndianMeals4-e1659490836727-435x500.jpg" width="500">
+        <p><b>Just At @159/-</b></p><lable><button>order now</button></lable>
+        </section>
+        <section id="Services">
+            <h2>Drunken monkey</h2>
+            <img src="https://thebigmansworld.com/wp-content/uploads/2021/06/almond-milk-milkshake4.jpeg" width="500">
+        <p><b>Just At @189/-</b></p><lable><button>order now</button></lable>
+        </section>
+        <section id="Services">
+            <h2>Mouzy Mojito</h2>
+            <img src="https://media.diageocms.com/media/pg5li0m1/barcom_serve_image_1079425_mojito.jpg" width="500">
+        </section>
+        <section id="Services">
+            <h1>Alfaham</h1>
+            <h2>Smokeyz</h2>
+            <img src="https://img.onmanorama.com/content/dam/mm/en/food/recipe/images/2021/2/14/alfaham.jpg" width="500">
+        <p><b>Just At @599/-</b></p><lable><button>order now</button></lable>
+        </section>
+        <section id="Services">
+            <h2>butter chicken</h2>
+            <img src="https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken-.jpg" width="500">
+        <p><b>Just At @599/-</b></p><lable><button>order now</button></lable>
+        </section>
+
+        <section id="Services">
+            <h1>Burger/Sandwich</h1>
+            <h2>boba tea</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE9NuP8MUm3yL9NOKqxX9iV5v38_Lj2ekmLg&usqp=CAU" width="500">
+        <p><b>Just At @299/-</b></p><lable><button>order now</button></lable>
+        </section>
+        <section id="Services">
+            <h2>KFC</h2>
+            <img src="https://wallpapercave.com/wp/wp1939591.jpg" width="500">
+        <p><b>Just At @799/-</b></p><lable><button>order now</button></lable>
+        </section>
+
+         <section id="Services">
+            <h2>noodle</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoWPqkhLbyc629YZ5euNypbjQDjpaOyO7_Zw&usqp=CAU" width="500">
+        <p><b>Just At @399/-</b></p><lable><button>order now</button></lable>
+        </section>
+        </div>
+        <div id="results-container">
+            
+        </div>
+    </div>
+    <div class="about">
+    <section id="About">
+       <h1>About</h1>
+        <p>“Zomato is a play on growing food services industry in India as well as increasing adoption of digital commerce. With only 15mn monthly transacting users currently, Zomato has a long runway for customer acquisition and revenue growth, albeit this may come at the cost of near-term profitability.</p>
+    </div>
+    </section>
+    <br>
+    <section id="contact">
+        <!-- contact section start -->
+        <div class="max-width">
+            <h2 class="title">contact</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text"></div>
+                    <p></p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="sub-title"zomato></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Aparna Stop, Kuniyamuthur, Tamil Nadu 641008</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">zomato@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="https://www.zomato.com">zomato</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
